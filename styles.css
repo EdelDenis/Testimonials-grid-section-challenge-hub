@@ -3,15 +3,16 @@
 .block_daniel{
     background-image: url(img/bg-pattern-quotation.svg);
     background-color: hsl(263, 55%, 52%);
-    width:350px;
-    height:500px;
+    width:370px;
+    height:fit-content;
     background-repeat: no-repeat;
     background-position-x:225px;
     margin: auto;
     border-radius:10px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
 }
 .img_avatar{
-    margin:30px 20px 30px 30px;
+    margin:30px 20px 20px 30px;
     border-radius: 50%;
     width:12%;
 }
@@ -46,13 +47,104 @@
     color:hsl(0, 0%, 81%);
     margin: 20px 30px 0 30px;
     font-family:"Barlow Semi Condensed", sans-serif;
+    padding-bottom:30px;
+    line-height: 22px;
 }
 
 .block_jonathan{
     margin: auto;
     border-radius:10px;
-    width:350px;
-    height:300px;
+    width:370px;
+    height:fit-content;
     background-color: hsl(217, 19%, 35%);
     margin-top:30px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
 }
+
+.block_harmon{
+    margin: auto;
+    border-radius:10px;
+    width:370px;
+    height:fit-content;
+    background-color: white;
+    margin-top:30px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+
+.main_p_harmon{
+    color:hsl(217, 19%, 35%);
+    margin: 0 30px 0 30px;
+    font-family:"Barlow Semi Condensed", sans-serif;
+    font-size:20px;
+    font-weight: bold;
+}
+.second_p_harmon{
+    color:hsl(217, 19%, 35%);
+    margin: 20px 30px 0 30px;
+    font-family:"Barlow Semi Condensed", sans-serif;
+    padding-bottom:30px;
+    line-height: 22px;
+}
+
+.p_name_harmon{
+    margin:0;
+    color:hsl(217, 19%, 35%);
+    font-size:15px;
+    font-family:"Barlow Semi Condensed", sans-serif;
+    font-weight: bold;
+}
+.p_qualify_harmon{
+    font-size:14px;
+    color: hsl(217, 19%, 35%);
+    font-family:"Barlow Semi Condensed", sans-serif;
+}
+
+.block_patrick{
+    margin: auto;
+    border-radius:10px;
+    width:370px;
+    height:fit-content;
+    background-color: hsl(219, 29%, 14%);
+    margin-top:30px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+.block_kira{
+    margin: auto;
+    border-radius:10px;
+    width:370px;
+    height:fit-content;
+    background-color: white;
+    margin-top:30px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+
+@media(min-width:1000px){
+    .block_daniel{
+        width:650px;
+        margin:0;
+    }
+    .block_harmon{
+        width:300px;
+        margin:0;
+    }
+    .block_jonathan{
+        width:300px;
+        margin:0;
+    }
+    .block_patrick{
+        width:650px;
+        margin:0;
+    }
+    .container{
+        margin:auto;
+        max-width:1500px;
+    }
+    
+
+
+.first_grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap:30px;
+}
+};
